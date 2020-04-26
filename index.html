@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,34 @@
    <link rel="stylesheet" href="style.css">
    <script src="index.js"></script>
 </head>
+
 <body>
-   <h1>Hello</h1>
+   <div class="container">
+      <h2>Dutch Tab</h2>
+      <form>
+         <p>How much was your bill.</p>
+         <input type="text" placeholder="0.00 rupees">
+
+         <p>How was our service</p>
+         <select>
+            <option disabled selected>Please choose an Option</option>
+            <option value="1">Bad</option>
+            <option value="2">Average</option>
+            <option value="3">Good</option>
+         </select>
+
+         <p>How many people are sharing the bill.</p>
+         <input type="text" placeholder="0 people">
+
+         <p>Bill amount.</p>
+         <input type="text" placeholder="0.00 rupees">
+
+         <button type="submit">CALCULATE</button>
+      </form>
+      <div>
+         <p>Total pay</p>
+      </div>
+   </div>
 </body>
+
 </html>

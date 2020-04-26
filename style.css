@@ -1,3 +1,23 @@
 body {
-   background-color: red;
+   background-color: rgb(96, 26, 18);
+}
+
+.container {
+   width: 50vw;
+   margin: auto;
+   background-color: white;
+}
+
+.container h2 {
+   text-align: center;
+   background-color: black;
+   color: white;
+}
+
+button {
+   display: block;
+   background-color: rgb(158, 38, 60);
+   color: white;
+   padding: 15px 100px;
+   margin: auto;
 }
